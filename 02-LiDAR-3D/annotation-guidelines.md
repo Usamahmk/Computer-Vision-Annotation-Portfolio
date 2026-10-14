@@ -10,10 +10,10 @@ The annotation work focuses on 3D cuboid placement, object classification, track
 
 ## 2. Dataset Preparation
 
-**Dataset:** KITTI Vision Benchmark Suite  
-**Annotation Platform:** CVAT  
-**Data Type:** Sequential LiDAR point clouds  
-**Annotation Geometry:** 3D cuboids  
+**Dataset:** KITTI Vision Benchmark Suite
+**Annotation Platform:** CVAT
+**Data Type:** Sequential LiDAR point clouds
+**Annotation Geometry:** 3D cuboids
 **Confirmed Object Classes:** Car and Pedestrian
 
 ### Preparation Procedure
@@ -100,14 +100,14 @@ Use spatial continuity and frame-to-frame evidence to reduce the risk of track I
 
 ## 8. Quality Assurance Checklist
 
-- [ ] Cuboids are positioned around their intended objects.
-- [ ] Cuboid dimensions are reasonable for the visible point-cloud evidence.
-- [ ] Object labels follow the configured taxonomy.
-- [ ] Cuboid orientation is consistent with available evidence.
-- [ ] Track IDs remain consistent across identifiable frames.
-- [ ] Interpolated cuboids are inspected for drift.
-- [ ] Ambiguous objects are reviewed rather than guessed.
-- [ ] Annotation results are inspected from multiple viewing angles.
+- [x] Cuboids are positioned around their intended objects.
+- [x] Cuboid dimensions are reasonable for the visible point-cloud evidence.
+- [x] Object labels follow the configured taxonomy.
+- [x] Cuboid orientation is consistent with available evidence.
+- [x] Track IDs remain consistent across identifiable frames.
+- [x] Interpolated cuboids are inspected for drift.
+- [x] Ambiguous objects are reviewed rather than guessed.
+- [x] Annotation results are inspected from multiple viewing angles.
 
 ## 9. Demonstration and Evidence
 
@@ -115,6 +115,6 @@ The portfolio contains a separate five-frame video demonstration showing the 3D 
 
 Additional screenshots document a larger sequential LiDAR tracking task, including cuboid tracks, object properties, and frame-based inspection.
 
-**Video Demonstration:** https://youtu.be/xC4R7dE_D-4
+**Video Demonstration:** [https://youtu.be/xC4R7dE_D-4](https://youtu.be/xC4R7dE_D-4)
 
-**Dataset Reference:** https://www.cvlibs.net/datasets/kitti/
+**Dataset Reference:** [https://www.cvlibs.net/datasets/kitti/](https://www.cvlibs.net/datasets/kitti/)
