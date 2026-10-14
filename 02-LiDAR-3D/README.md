@@ -2,23 +2,28 @@
 
 ## Project Overview
 
-This project demonstrates my practical experience in 3D object tracking and LiDAR point-cloud annotation using CVAT.
+This project demonstrates practical experience in LiDAR 3D point-cloud annotation using CVAT, focusing on 3D cuboid placement, object classification, multi-frame tracking, and interpolation.
 
-The annotation task uses sequential point-cloud data to track selected objects across five frames. I used 3D cuboids, object tracking, and interpolation to maintain object identities and spatial consistency across the sequence.
+The portfolio includes two complementary forms of evidence:
 
-## Project Details
+**1. Video Demonstration — Five-Frame Sample**
 
-| Category | Description |
-|---|---|
-| Annotation Tool | CVAT |
-| Data Type | Sequential LiDAR Point Clouds |
-| Annotation Type | 3D Cuboid Tracking |
-| Annotated Frames | 5 |
-| Tracking Method | Multi-frame object tracking |
-| Interpolation | Used |
-| Object Classes | To be confirmed |
-| Dataset Name | To be confirmed |
+A recorded demonstration of the CVAT LiDAR annotation workflow, showing 3D bounding-box placement and object annotation across a five-frame sample.
 
+**2. Screenshot Evidence — Sequential Object Tracking**
+
+Screenshots from a larger LiDAR tracking task demonstrating 3D cuboid tracks, object identity management, and interpolation across sequential point-cloud frames.
+
+The screenshots include different frame positions and multiple viewing angles for inspecting cuboid alignment, dimensions, and orientation.
+
+### Skills Demonstrated
+
+- 3D cuboid annotation in LiDAR point clouds
+- Object classification, including cars and pedestrians
+- Multi-frame object tracking
+- Keyframe-based annotation and interpolation
+- Cuboid dimension and orientation review
+- Tracking identity consistency checks
 
 ## Video Demonstration
 
