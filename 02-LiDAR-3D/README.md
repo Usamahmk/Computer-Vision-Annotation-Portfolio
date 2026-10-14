@@ -31,24 +31,35 @@ This video demonstrates my LiDAR 3D point-cloud annotation workflow in CVAT, inc
 
 ## Annotation Evidence
 
-### 1. 3D Object Tracking
+### 1. 3D Object Tracking — Frame 0
 
-Screenshot to be added.
+![3D object tracking overview](screenshots/01-3d-object-tracking.png)
 
-This screenshot will demonstrate 3D cuboid tracking within the CVAT point-cloud interface.
+*Overview of the annotated LiDAR point cloud with multiple 3D cuboids and orthographic views.*
 
 ### 2. Cuboid Alignment and Orientation
 
-Screenshot to be added.
+![3D cuboid alignment](screenshots/02-cuboid-alignment.png)
 
-This screenshot will demonstrate how 3D cuboids are positioned and aligned with LiDAR points.
+*Selected 3D cuboid examined from perspective, top, side, and front views to assess spatial alignment.*
 
-### 3. Sequential Frame Review
+### 3. Tracking and Keyframe Workflow — Frame 10
 
-Screenshot to be added.
+![Tracking and keyframe workflow](screenshots/03-interpolation-keyframes.png)
 
-This screenshot will demonstrate annotation consistency across the selected point-cloud frames.
+*CVAT cuboid-track panel displaying object classes, tracking controls, and pedestrian cuboid dimensions at frame 10.*
 
+### 4. Sequential Object Tracking — Frame 20
+
+![Sequential frame tracking](screenshots/04-sequential-frame-tracking.png)
+
+*Later LiDAR frame showing tracked objects, including pedestrian track ID 12, for temporal consistency review.*
+
+### 5. Quality Assurance Inspection
+
+![LiDAR 3D QA review](screenshots/05-qa-review.png)
+
+*Inspection of a selected pedestrian cuboid and its dimensions using the available point-cloud views.*
 ## Annotation Workflow
 
 1. Import the sequential LiDAR point-cloud dataset into CVAT.
