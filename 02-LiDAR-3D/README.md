@@ -6,6 +6,25 @@ This project demonstrates practical experience in LiDAR 3D point-cloud annotatio
 
 The portfolio includes two complementary forms of evidence:
 
+**1. Video Demonstration — Five-Frame Sample**
+
+A recorded demonstration of the CVAT LiDAR annotation workflow, showing 3D bounding-box placement and object annotation across a five-frame sample.
+
+**2. Screenshot Evidence — Sequential Object Tracking**
+
+Screenshots from a larger LiDAR tracking task demonstrating 3D cuboid tracks, object identity management, and interpolation across sequential point-cloud frames.
+
+The screenshots include different frame positions and multiple viewing angles for inspecting cuboid alignment, dimensions, and orientation.
+
+### Skills Demonstrated
+
+- 3D cuboid annotation in LiDAR point clouds
+- Object classification, including cars and pedestrians
+- Multi-frame object tracking
+- Keyframe-based annotation and interpolation
+- Cuboid dimension and orientation review
+- Tracking identity consistency checks
+
 ## Dataset Source and Preparation
 
 The LiDAR point-cloud data used in this project was obtained from the **KITTI dataset**, a widely used benchmark for autonomous driving and 3D object detection research.
@@ -25,24 +44,6 @@ The selected samples were uploaded to **CVAT (Computer Vision Annotation Tool)**
 
 **Dataset Source:** [KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/)
 
-**1. Video Demonstration — Five-Frame Sample**
-
-A recorded demonstration of the CVAT LiDAR annotation workflow, showing 3D bounding-box placement and object annotation across a five-frame sample.
-
-**2. Screenshot Evidence — Sequential Object Tracking**
-
-Screenshots from a larger LiDAR tracking task demonstrating 3D cuboid tracks, object identity management, and interpolation across sequential point-cloud frames.
-
-The screenshots include different frame positions and multiple viewing angles for inspecting cuboid alignment, dimensions, and orientation.
-
-### Skills Demonstrated
-
-- 3D cuboid annotation in LiDAR point clouds
-- Object classification, including cars and pedestrians
-- Multi-frame object tracking
-- Keyframe-based annotation and interpolation
-- Cuboid dimension and orientation review
-- Tracking identity consistency checks
 
 ## Video Demonstration
 
