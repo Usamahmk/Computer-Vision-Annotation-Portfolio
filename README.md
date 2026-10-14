@@ -1,83 +1,135 @@
 # Computer Vision Annotation Portfolio
 
-## About Me
+### 2D Video Annotation | 3D LiDAR Annotation | Object Tracking | Quality Assurance
 
-I am a computer vision data annotator with hands-on experience using CVAT for image, video, and 3D point-cloud annotation.
+Welcome to my computer vision annotation portfolio.
 
-This portfolio demonstrates my practical annotation skills, quality-control workflow, handling of difficult cases, and experience working with computer vision datasets.
+This repository showcases practical annotation projects completed using **CVAT (Computer Vision Annotation Tool)**, with a focus on annotation accuracy, object tracking, interpolation, and quality assurance.
 
-## Core Skills
+My work includes 2D bounding-box annotation, video object tracking, 3D LiDAR point-cloud annotation, and structured documentation of annotation workflows and quality-control procedures.
 
-- CVAT
-- 2D Bounding Box Annotation
-- Polygon and Segmentation Annotation
-- Video Annotation
-- Multi-Object Tracking
-- Keyframes and Interpolation
-- Occlusion and Truncation Handling
-- LiDAR Point-Cloud Annotation
-- 3D Cuboid Annotation
-- Cuboid Accuracy and Ground Alignment
-- Annotation QA and Error Correction
+---
 
-## Portfolio Projects
+## Featured Projects
 
-### 1. CVAT 2D & Video Annotation
+### Project 01 — CVAT 2D Video Annotation and Object Tracking
 
-Traffic-scene annotation project demonstrating:
+**Tools:** CVAT  
+**Annotation Type:** 2D Bounding Boxes  
+**Focus:** Video Object Tracking, Keyframes, Interpolation, QA
 
-- Bounding boxes
-- Polygon/segmentation annotation
-- Video object tracking
-- Track ID consistency
-- Keyframe interpolation
-- Occlusion and truncation handling
-- Annotation QA
+This project demonstrates 2D object tracking across a 51-frame video sequence.
 
-[View Project](./01-CVAT-2D-Video/)
+**Project Highlights:**
 
-### 2. LiDAR & 3D Point-Cloud Annotation
+- Tracked four selected objects: two motorcycles and two pedestrians.
+- Used manually defined keyframes at frames 0, 10, 20, 30, 40, and 50.
+- Reviewed all 51 frames for annotation consistency.
+- Identified and corrected two interpolation drift issues.
+- Observed zero track ID switches during QA.
+- Completed an additional static-image bounding-box annotation example involving 15 cars.
 
-3D annotation project using LiDAR point-cloud data.
+**Video Demonstration:**
 
-Skills demonstrated:
+[![Watch 2D Video Annotation Demo](https://img.youtube.com/vi/PD7wA10ZvYc/hqdefault.jpg)](https://youtu.be/PD7wA10ZvYc)
 
-- Point-cloud interpretation
-- Bird's-eye, side, front, and 3D views
-- 3D cuboid annotation
-- Length, width, and height estimation
-- Ground alignment
-- Point contamination checks
-- Sparse-object handling
-- Cuboid QA
+[View Full 2D Project](01-CVAT-2D-Video/)
 
-[View Project](./02-LiDAR-3D/)
+---
 
-### 3. Robotics Annotation
+### Project 02 — CVAT LiDAR 3D Cuboid Annotation and Tracking
 
-Coming soon.
+**Tools:** CVAT  
+**Dataset:** KITTI Vision Benchmark Suite  
+**Annotation Type:** 3D Cuboids  
+**Focus:** Point-Cloud Annotation, Object Tracking, Interpolation, QA
 
-This project will focus on robotic manipulation datasets, object interaction, robot-arm tracking, and action/event annotation.
+This project demonstrates 3D LiDAR point-cloud annotation using a selected subset of sequential KITTI samples uploaded into CVAT.
 
-## Quality Assurance
+**Project Highlights:**
 
-My annotation workflow follows a structured process:
+- Annotated 3D cuboids for objects including cars and pedestrians.
+- Used perspective, top, side, and front views for cuboid inspection.
+- Performed multi-frame object tracking.
+- Applied interpolation using variable keyframe intervals.
+- Reviewed all frames in the larger sequential tracking task.
+- Corrected identified cuboid alignment and interpolation issues.
+- Observed zero track ID switches during QA.
+- Documented annotation guidelines, difficult cases, and quality assurance results.
 
-1. Review the annotation guidelines.
-2. Identify and classify objects.
-3. Create accurate annotations.
-4. Inspect difficult and ambiguous cases.
-5. Perform a dedicated QA pass.
-6. Correct geometry, classification, tracking, and consistency errors.
-7. Document uncertain cases and annotation decisions.
+**Video Demonstration:**
 
-## Tools
+The video presents a separate five-frame LiDAR annotation sample. The project screenshots document a larger sequential tracking task.
 
-- CVAT
-- GitHub
-- LiDAR / Point-Cloud Datasets
-- KITTI Dataset
+[![Watch LiDAR 3D Annotation Demo](https://img.youtube.com/vi/xC4R7dE_D-4/hqdefault.jpg)](https://youtu.be/xC4R7dE_D-4)
 
-## Current Focus
+[View Full LiDAR 3D Project](02-LiDAR-3D/)
 
-I am currently developing advanced skills in LiDAR point-cloud annotation, 3D cuboids, object orientation, 3D tracking, and annotation quality assurance.
+---
+
+## Technical Skills
+
+| Category | Skills |
+|---|---|
+| Annotation Tools | CVAT |
+| 2D Annotation | Bounding Boxes, Object Tracking |
+| 3D Annotation | LiDAR Point Clouds, 3D Cuboids |
+| Tracking | Track IDs, Temporal Consistency |
+| Interpolation | Keyframe-Based Tracking, Drift Review |
+| Quality Assurance | Manual Frame Review, Error Correction |
+| Documentation | Annotation Guidelines, Difficult Cases, QA Reports |
+| Dataset Experience | KITTI LiDAR Data |
+
+## Quality Assurance Approach
+
+My annotation workflow emphasizes:
+
+1. Following consistent annotation guidelines.
+2. Inspecting object boundaries and spatial alignment.
+3. Maintaining stable object identities across frames.
+4. Reviewing interpolated annotations.
+5. Correcting identified errors.
+6. Documenting quality-control findings clearly.
+
+## Project Documentation
+
+Each project includes supporting documentation to explain the annotation workflow, challenges, and quality assurance process.
+
+**2D Video Annotation:**
+
+- [Project Overview](01-CVAT-2D-Video/README.md)
+- [Annotation Guidelines](01-CVAT-2D-Video/annotation-guidelines.md)
+- [Difficult Cases](01-CVAT-2D-Video/difficult-cases.md)
+- [QA Report](01-CVAT-2D-Video/qa-report.md)
+
+**3D LiDAR Annotation:**
+
+- [Project Overview](02-LiDAR-3D/README.md)
+- [Annotation Guidelines](02-LiDAR-3D/annotation-guidelines.md)
+- [Difficult Cases](02-LiDAR-3D/difficult-cases.md)
+- [Tracking QA Report](02-LiDAR-3D/tracking-qa-report.md)
+
+---
+
+## Professional Focus
+
+I am interested in remote opportunities involving:
+
+- AI Data Annotation
+- Computer Vision Data Labeling
+- Video Object Tracking
+- LiDAR 3D Point-Cloud Annotation
+- Annotation Quality Assurance
+- AI Training Data Evaluation
+
+I aim to contribute accurate, consistent, and well-documented annotation work to computer vision and AI training projects.
+
+## Contact
+
+**LinkedIn:** [Usama Adam](https://www.linkedin.com/in/usama-adam-ab7687210/)
+
+**GitHub:** [Usamahmk](https://github.com/Usamahmk)
+
+---
+
+*Portfolio projects are presented with annotation evidence, workflow documentation, and manually recorded quality assurance results.*
