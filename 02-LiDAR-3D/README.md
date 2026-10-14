@@ -6,6 +6,25 @@ This project demonstrates practical experience in LiDAR 3D point-cloud annotatio
 
 The portfolio includes two complementary forms of evidence:
 
+## Dataset Source and Preparation
+
+The LiDAR point-cloud data used in this project was obtained from the **KITTI dataset**, a widely used benchmark for autonomous driving and 3D object detection research.
+
+For this portfolio project, I selected a subset of sequential LiDAR point-cloud samples from the original KITTI dataset rather than using the entire dataset.
+
+The selected samples were uploaded to **CVAT (Computer Vision Annotation Tool)** for manual 3D cuboid annotation, object classification, and multi-frame object tracking.
+
+### Data Preparation Workflow
+
+1. Obtained LiDAR point-cloud data from the KITTI dataset.
+2. Selected a smaller subset of sequential point-cloud samples.
+3. Uploaded the selected samples into CVAT.
+4. Configured the annotation task for 3D cuboid tracking.
+5. Annotated objects and applied interpolation using variable keyframe intervals.
+6. Inspected the annotations using 3D, top, side, and front views.
+
+**Dataset Source:** [KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/)
+
 **1. Video Demonstration — Five-Frame Sample**
 
 A recorded demonstration of the CVAT LiDAR annotation workflow, showing 3D bounding-box placement and object annotation across a five-frame sample.
