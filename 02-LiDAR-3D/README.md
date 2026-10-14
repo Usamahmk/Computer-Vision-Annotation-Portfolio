@@ -19,11 +19,15 @@ The annotation task uses sequential point-cloud data to track selected objects a
 | Object Classes | To be confirmed |
 | Dataset Name | To be confirmed |
 
+
 ## Video Demonstration
 
-My demonstration video showcases the 3D point-cloud annotation workflow, including cuboid placement, object tracking, interpolation, and frame review.
+This video demonstrates my LiDAR 3D point-cloud annotation workflow in CVAT, including 3D cuboid annotation, object tracking, and interpolation across sequential frames.
 
-**Video link:** To be added.
+[![Watch My LiDAR 3D Annotation Demo](https://img.youtube.com/vi/xC4R7dE_D-4/hqdefault.jpg)](https://youtu.be/xC4R7dE_D-4)
+
+**[Watch the full demonstration on YouTube](https://youtu.be/xC4R7dE_D-4)**
+  
 
 ## Annotation Evidence
 
